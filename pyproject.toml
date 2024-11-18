@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "soltrade"
+version = "0.1.0"
+description = ""
+authors = ["Connor Swislow <52296992+ConnorSwis@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+matplotlib = "^3.9.2"
+pandas = "^2.2.3"
+numpy = "^2.1.3"
+base58 = "^2.1.1"
+httpx = "^0.27.2"
+python-dotenv = "^1.0.1"
+kiwisolver = "^1.4.7"
+backtrader = "^1.9.78.123"
+apscheduler = "^3.10.4"
+solana = "^0.35.1"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
